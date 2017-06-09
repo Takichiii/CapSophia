@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    card_view:cardCornerRadius="4dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_image"
+            android:maxHeight="200dp"
+            android:layout_alignParentTop="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:clickable="true"
+            android:id="@+id/floatingButton"
+            app:fabSize="mini"
+            android:layout_gravity="top|right"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:backgroundTintMode="src_atop"
+            app:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_below="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/lorem"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <View
+            android:layout_below="@id/description"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:id="@+id/saparator"
+            android:background="@android:color/darker_gray"
+            android:layout_height="1dp"/>
+
+        <!--
+        <TextView
+            android:drawableLeft="@drawable/ic_place_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/saparator"
+            android:textAlignment="center"
+            android:id="@+id/location"
+            android:padding="2dp"
+            android:text="Cannes"
+            android:layout_height="wrap_content" />
+            -->
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
+    </LinearLayout>

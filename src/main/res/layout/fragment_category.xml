@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/grid_height"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/default_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/description"
+        android:layout_alignStart="@+id/description" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_below="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:text="@string/lorem"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:clickable="true"
+        android:id="@+id/floatingButton"
+        app:fabSize="mini"
+        android:layout_gravity="top|right"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:backgroundTintMode="src_atop"
+        app:backgroundTint="#ffffff"
+        android:layout_marginTop="10dp" />
+
+
+
+
+</RelativeLayout>
+

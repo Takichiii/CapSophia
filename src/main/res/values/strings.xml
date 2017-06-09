@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">CapSophia</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello World! </string>
+    <string name="logo_desc">App logo</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint">Recherche</string>
+    <string name="button_ok">OK</string>
+    <string name="notifications1">BONS PLANS</string>
+    <string name="notifications2">EVENEMENTS</string>
+    <string name="lorem">Lorem ipsum Dolor ipsum ipsum dolor dolor</string>
+    <string name="show_all">Voir tout</string>
+    <string-array name="boutiques">
+        <item>123</item>
+        <item>Aldo</item>
+        <item>Apple Store</item>
+        <item>Bouygues Telecom</item>
+        <item>Claire\'s</item>
+        <item>Courir</item>
+        <item>Etam</item>
+        <item>Fossil</item>
+        <item>Grand Optical</item>
+        <item>Illy</item>
+        <item>Jeff de Bruges</item>
+        <item>Laboratoire Médical Barla</item>
+        <item>Les p\'tites Bombes</item>
+        <item>Marionnaud</item>
+        <item>Swarovski</item>
+    </string-array>
+    <string-array name="boutiques_categories">
+        <item>SERVICES</item>
+        <item>DÉCORATION MAISONS CADEAUX</item>
+        <item>LOISIRS</item>
+        <item>SPORT</item>
+        <item>PARFUMERIE BEAUTÉ SANTÉ</item>
+        <item>MODE ENFANT</item>
+        <item>MODE HOMME</item>
+        <item>MODE FEMME</item>
+        <item>MODE-MAROQUINERIE-CHAUSSURES</item>
+        <item>HORLOGERIE BIJOUTERIE</item>
+        <item>CULTURE JEUX ET MULTIMEDIA</item>
+        <item>RESTAURATION</item>
+        <item>GOURMANDISE</item>
+    </string-array>
+    <string-array name="evenements_categories">
+        <item>STAGES</item>
+        <item>JEUX</item>
+        <item>CONCOURS</item>
+    </string-array>
+    <string name="adresse">190 rue Frédéric Mistral \n Valbonne 06560</string>
+</resources>
